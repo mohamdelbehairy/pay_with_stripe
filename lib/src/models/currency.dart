@@ -1,0 +1,1 @@
+enum CURRENCY { usd, eur }
