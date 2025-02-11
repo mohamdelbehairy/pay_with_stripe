@@ -4,6 +4,8 @@ import 'models/customer_model.dart';
 import 'service/strip_service.dart';
 
 class PayWithStrip {
+  PayWithStrip._();
+
   static final StripService _stripService = StripService();
   static Future<Map> makePayment({required PaymentModel paymentModel}) async {
     return await _stripService.makePayment(paymentModel);

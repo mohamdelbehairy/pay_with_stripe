@@ -23,7 +23,7 @@ To install the Pay with stripe Package, follow these steps
 1. Add the package to your project's dependencies in the `pubspec.yaml` file:
    ```yaml
    dependencies:
-     pay_with_strip: ^0.0.1
+      pay_with_stripe: ^0.0.2
     ``` 
 2. Run the following command to fetch the package:
 
