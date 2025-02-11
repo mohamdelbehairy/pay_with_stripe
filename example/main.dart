@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () async {
-            final result = await PayWithStrip.makePayment(
+            final result = await PayWithStripe.makePayment(
                 paymentModel: PaymentModel(
                     publishableKey: '', // get publish key from strip dashboard
                     secretKey: '', // get secretKey key from strip dashboard

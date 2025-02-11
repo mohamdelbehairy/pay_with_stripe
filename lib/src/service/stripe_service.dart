@@ -7,7 +7,7 @@ import 'package:pay_with_stripe/src/models/payment_input_model.dart';
 import 'package:pay_with_stripe/src/models/create_payment_intent_model/create_payment_intent_model.dart';
 import 'package:pay_with_stripe/src/models/payment_model.dart';
 
-class StripService {
+class StripeService {
   final Dio _dio = Dio();
 
   // create payment intent this request will call strip dashboard to init payment

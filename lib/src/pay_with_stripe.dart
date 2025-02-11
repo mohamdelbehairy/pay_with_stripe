@@ -1,12 +1,12 @@
 import 'package:pay_with_stripe/src/models/payment_model.dart';
 
 import 'models/customer_model.dart';
-import 'service/strip_service.dart';
+import 'service/stripe_service.dart';
 
-class PayWithStrip {
-  PayWithStrip._();
+class PayWithStripe {
+  PayWithStripe._();
 
-  static final StripService _stripService = StripService();
+  static final StripeService _stripService = StripeService();
   static Future<Map> makePayment({required PaymentModel paymentModel}) async {
     return await _stripService.makePayment(paymentModel);
   }

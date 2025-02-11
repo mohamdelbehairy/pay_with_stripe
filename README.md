@@ -23,7 +23,7 @@ To install the Pay with stripe Package, follow these steps
 1. Add the package to your project's dependencies in the `pubspec.yaml` file:
    ```yaml
    dependencies:
-      pay_with_stripe: ^0.0.2
+      pay_with_stripe: ^0.0.2+1
     ``` 
 2. Run the following command to fetch the package:
 
@@ -136,7 +136,10 @@ Mandatory fields are marked as **required**, while others are optional and can b
 | `merchantDisplayName` | `String`     | ❌ No  | The name of the merchant displayed in the payment UI. |
 | `style`              | `ThemeMode?` | ❌ No  | The theme style for the payment UI (e.g., light or dark mode). |
 
+### Test Card  
+For testing payments, you can use the following Stripe test card:  
 
+- **Card Number:** `4242 4242 4242 4242`
 
 ## ⚡ Donate 
 
