@@ -1,4 +1,4 @@
-import 'package:pay_with_strip/src/models/payment_model.dart';
+import 'package:pay_with_stripe/src/models/payment_model.dart';
 
 import 'models/customer_model.dart';
 import 'service/strip_service.dart';

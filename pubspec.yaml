@@ -1,7 +1,7 @@
-name: pay_with_strip
-description: Pay with Strip is a Flutter package that streamlines Stripe payments, allowing you to complete transactions securely with a single line of code.
-version: 0.0.1+1
-homepage: https://github.com/mohamdelbehairy/pay_with_strip
+name: pay_with_stripe
+description: Pay with Stripe is a Flutter package that streamlines Stripe payments, allowing you to complete transactions securely with a single line of code.
+version: 0.0.1
+homepage: https://github.com/mohamdelbehairy/pay_with_stripe
 
 environment:
   sdk: ^3.6.1

@@ -1,7 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:pay_with_strip/pay_with_strip.dart';
+import 'package:pay_with_stripe/pay_with_stripe.dart';
 
 void main() {
   runApp(const MyApp());

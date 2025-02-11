@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pay_with_strip/pay_with_strip.dart';
+import 'package:pay_with_stripe/pay_with_stripe.dart';
 
 class PaymentModel {
   final num amount;

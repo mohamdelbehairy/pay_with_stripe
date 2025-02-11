@@ -1,6 +1,6 @@
- # Pay with Strip
+ # Pay with Stripe
 
-Pay with Strip is a Flutter package that simplifies the Stripe payment process. Instead of handling multiple steps manually, this package allows you to complete the entire payment process with just a single line of code.
+Pay with Stripe is a Flutter package that simplifies the Stripe payment process. Instead of handling multiple steps manually, this package allows you to complete the entire payment process with just a single line of code.
 
 With this package, you can easily collect payment details using Stripe’s secure infrastructure, providing a smooth and hassle-free experience for both developers and users.
 
@@ -18,7 +18,7 @@ If you're selling digital products or services within your app, (e.g. subscripti
 
 ## 🚀  Installation
 
-To install the Pay with strip Package, follow these steps
+To install the Pay with stripe Package, follow these steps
 
 1. Add the package to your project's dependencies in the `pubspec.yaml` file:
    ```yaml
@@ -90,9 +90,9 @@ For card scanning add the following to your Info.plist:
 1. Import the package into your Dart file:
 
     ``` 
-    import 'package:pay_with_strip/pay_with_strip.dart';
+    import 'package:pay_with_stripe/pay_with_stripe.dart';
     ```
-2. To initiate a payment using Pay with Strip, use the following method:
+2. To initiate a payment using Pay with Stripe, use the following method:
     ```dart
     final result = await PayWithStrip.makePayment(
         paymentModel: PaymentModel(
@@ -122,7 +122,7 @@ For card scanning add the following to your Info.plist:
 
 ### Payment Configuration Parameters  
 
-Below is a list of parameters required to configure and process a payment using **Pay with Strip**.  
+Below is a list of parameters required to configure and process a payment using **Pay with Stripe**.  
 Mandatory fields are marked as **required**, while others are optional and can be customized based on your needs.  
 
 | Attribute              | Type         | Required | Description |

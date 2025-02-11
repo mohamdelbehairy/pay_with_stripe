@@ -1,11 +1,11 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
-import 'package:pay_with_strip/src/models/bottom_sheet_model.dart';
-import 'package:pay_with_strip/src/models/customer_model.dart';
-import 'package:pay_with_strip/src/models/ephemeral_key_model.dart';
-import 'package:pay_with_strip/src/models/payment_input_model.dart';
-import 'package:pay_with_strip/src/models/create_payment_intent_model/create_payment_intent_model.dart';
-import 'package:pay_with_strip/src/models/payment_model.dart';
+import 'package:pay_with_stripe/src/models/bottom_sheet_model.dart';
+import 'package:pay_with_stripe/src/models/customer_model.dart';
+import 'package:pay_with_stripe/src/models/ephemeral_key_model.dart';
+import 'package:pay_with_stripe/src/models/payment_input_model.dart';
+import 'package:pay_with_stripe/src/models/create_payment_intent_model/create_payment_intent_model.dart';
+import 'package:pay_with_stripe/src/models/payment_model.dart';
 
 class StripService {
   final Dio _dio = Dio();
