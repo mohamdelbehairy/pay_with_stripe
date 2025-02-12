@@ -5,11 +5,11 @@ Pay with Stripe is a Flutter package that simplifies the Stripe payment process.
 With this package, you can easily collect payment details using Stripe’s secure infrastructure, providing a smooth and hassle-free experience for both developers and users.
 
 
-### Android & iOS
+### Demo
 
-| Android | iOS |
-|---------|-----|
-| <img src="https://github.com/user-attachments/assets/1efb9d66-6230-44a8-94d3-f657ffb7921f" height="500"/> | <img src="https://github.com/user-attachments/assets/e38338cf-38f0-431c-ac67-aaa87257d247" height="500"/> |
+<p align='center'>
+    <img src="https://github.com/user-attachments/assets/e38338cf-38f0-431c-ac67-aaa87257d247" width=320/>
+</p>
 
 
 #### Recommended usage
@@ -23,7 +23,7 @@ To install the Pay with stripe Package, follow these steps
 1. Add the package to your project's dependencies in the `pubspec.yaml` file:
    ```yaml
    dependencies:
-      pay_with_stripe: ^0.0.2+1
+      pay_with_stripe: ^0.0.3
     ``` 
 2. Run the following command to fetch the package:
 
